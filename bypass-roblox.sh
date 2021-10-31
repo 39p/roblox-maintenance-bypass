@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo id > /dev/null || (echo **This file must be ran with administrator privileges** ; read -n1 -r -p "Press any key to continue..." key ; exit 1)
+sudo id > /dev/null || (echo "This file must be ran with administrator privileges" ; read -n1 -r -p "Press any key to continue..." key ; exit 1)
 echo Thanks to BrentDaMage for letting me know about this.
 IP = (ping -c1 gamepersistence.roblox.com | sed -nE 's/^PING[^(]+\(([^)]+)\).*/\1/p')
 echo $IP www.roblox.com >> /etc/hosts
