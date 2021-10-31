@@ -1,0 +1,59 @@
+#!/bin/bash
+
+echo Thanks to BrentDaMage for letting me know about this.
+echo 128.116.119.4 www.roblox.com >> /etc/hosts
+echo 128.116.119.4 web.roblox.com >> /etc/hosts
+echo 128.116.119.4 abtesting.roblox.com >> /etc/hosts
+echo 128.116.119.4 accountinformation.roblox.com >> /etc/hosts
+echo 128.116.119.4 accountsettings.roblox.com >> /etc/hosts
+echo 128.116.119.4 adconfiguration.roblox.com >> /etc/hosts
+echo 128.116.119.4 ads.roblox.com >> /etc/hosts
+echo 128.116.119.4 api.roblox.com >> /etc/hosts
+echo 128.116.119.4 assetdelivery.roblox.com >> /etc/hosts
+echo 128.116.119.4 auth.roblox.com >> /etc/hosts
+echo 128.116.119.4 avatar.roblox.com >> /etc/hosts
+echo 128.116.119.4 badges.roblox.com >> /etc/hosts
+echo 128.116.119.4 billing.roblox.com >> /etc/hosts
+echo 128.116.119.4 catalog.roblox.com >> /etc/hosts
+echo 128.116.119.4 cdnproviders.roblox.com >> /etc/hosts
+echo 128.116.119.4 chat.roblox.com >> /etc/hosts
+echo 128.116.119.4 clientsettings.roblox.com >> /etc/hosts
+echo 128.116.119.4 contentstore.roblox.com >> /etc/hosts
+echo 128.116.119.4 contacts.roblox.com >> /etc/hosts
+echo 128.116.119.4 develop.roblox.com >> /etc/hosts
+echo 128.116.119.4 discussions.roblox.com >> /etc/hosts
+echo 128.116.119.4 economy.roblox.com >> /etc/hosts
+echo 128.116.119.4 economycreatorstats.roblox.com >> /etc/hosts
+echo 128.116.119.4 engagementpayouts.roblox.com >> /etc/hosts
+echo 128.116.119.4 followings.roblox.com >> /etc/hosts
+echo 128.116.119.4 friends.roblox.com >> /etc/hosts
+echo 128.116.119.4 gameinternationalization.roblox.com >> /etc/hosts
+echo 128.116.119.4 gamejoin.roblox.com >> /etc/hosts
+echo 128.116.119.4 gamepersistence.roblox.com >> /etc/hosts
+echo 128.116.119.4 games.roblox.com >> /etc/hosts
+echo 128.116.119.4 groups.roblox.com >> /etc/hosts
+echo 128.116.119.4 groupsmoderation.roblox.com >> /etc/hosts
+echo 128.116.119.4 inventory.roblox.com >> /etc/hosts
+echo 128.116.119.4 itemconfiguration.roblox.com >> /etc/hosts
+echo 128.116.119.4 locale.roblox.com >> /etc/hosts
+echo 128.116.119.4 localizationtables.roblox.com >> /etc/hosts
+echo 128.116.119.4 metrics.roblox.com >> /etc/hosts
+echo 128.116.119.4 midas.roblox.com >> /etc/hosts
+echo 128.116.119.4 notifications.roblox.com >> /etc/hosts
+echo 128.116.119.4 points.roblox.com >> /etc/hosts
+echo 128.116.119.4 premiumfeatures.roblox.com >> /etc/hosts
+echo 128.116.119.4 presence.roblox.com >> /etc/hosts
+echo 128.116.119.4 privatemessages.roblox.com >> /etc/hosts
+echo 128.116.119.4 publish.roblox.com >> /etc/hosts
+echo 128.116.119.4 share.roblox.com >> /etc/hosts
+echo 128.116.119.4 textfilter.roblox.com >> /etc/hosts
+echo 128.116.119.4 thumbnails.roblox.com >> /etc/hosts
+echo 128.116.119.4 thumbnailsresizer.roblox.com >> /etc/hosts
+echo 128.116.119.4 trades.roblox.com >> /etc/hosts
+echo 128.116.119.4 translationroles.roblox.com >> /etc/hosts
+echo 128.116.119.4 translations.roblox.com >> /etc/hosts
+echo 128.116.119.4 twostepverification.roblox.com >> /etc/hosts
+echo 128.116.119.4 users.roblox.com >> /etc/hosts
+echo 128.116.119.4 voice.roblox.com >> /etc/hosts
+killall -HUP mDNSResponder
+echo Done!
