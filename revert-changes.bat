@@ -4,7 +4,7 @@ if %errorLevel% NEQ 0 (
   echo This file must be ran with administrator privileges
   pause
   exit /b 1
-)
+) 
 cd /d %HOMEDRIVE%/Windows/System32/drivers/etc/
 findstr /v 128.116.119. hosts > temp
 type temp > hosts
