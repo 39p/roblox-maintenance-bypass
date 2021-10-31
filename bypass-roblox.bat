@@ -18,7 +18,6 @@ echo 128.116.119.4 catalog.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/et
 echo 128.116.119.4 cdnproviders.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
 echo 128.116.119.4 chat.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
 echo 128.116.119.4 clientsettings.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
-echo 128.116.119.4 clientsettingscdn.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
 echo 128.116.119.4 contentstore.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
 echo 128.116.119.4 contacts.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
 echo 128.116.119.4 develop.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
