@@ -56,5 +56,7 @@ echo $IP translations.roblox.com >> /etc/hosts
 echo $IP twostepverification.roblox.com >> /etc/hosts
 echo $IP users.roblox.com >> /etc/hosts
 echo $IP voice.roblox.com >> /etc/hosts
+echo %IP% chatmoderation.roblox.com >> /etc/hosts
+echo %IP% search.roblox.com >> /etc/hosts
 killall -HUP mDNSResponder
 echo Done!
