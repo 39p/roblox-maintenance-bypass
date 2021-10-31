@@ -1,7 +1,7 @@
 @echo off
 echo **This file must be ran with administrator privileges**
 echo Thanks to BrentDaMage for letting me know about this.
-FOR /f "tokens=1,3 delims=: " %%A IN ('ping -n 1 gold.roblox.com') DO IF %%A==Reply set IP=%%B
+FOR /f "tokens=1,3 delims=: " %%A IN ('ping -n 1 gamepersistence.roblox.com') DO IF %%A==Reply set IP=%%B
 echo %IP% www.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
 echo %IP% web.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
 echo %IP% abtesting.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
