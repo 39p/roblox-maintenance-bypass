@@ -1,5 +1,10 @@
 @echo off
-echo **This file must be ran with administrator privileges**
+net session >nul 2>&1
+if %errorLevel% NEQ 0 (
+  echo **This file must be ran with administrator privileges**
+  pause
+  exit /b 1
+)
 echo Thanks to BrentDaMage for letting me know about this.
 FOR /f "tokens=1,3 delims=: " %%A IN ('ping -n 1 gamepersistence.roblox.com') DO IF %%A==Reply set IP=%%B
 echo %IP% www.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
