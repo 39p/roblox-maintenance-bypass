@@ -61,6 +61,8 @@ echo %IP% translations.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/ho
 echo %IP% twostepverification.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
 echo %IP% users.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
 echo %IP% voice.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
+echo %IP% chatmoderation.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
+echo %IP% search.roblox.com >> %HOMEDRIVE%/Windows/System32/drivers/etc/hosts
 ipconfig /flushdns
 echo Done!
 pause
