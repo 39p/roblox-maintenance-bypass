@@ -23,7 +23,7 @@ with open(hosts_path) as fp:
     hosts = fp.read().splitlines()
 
 for index, line in enumerate(hosts):
-    if "128.116.119.4" in line:
+    if "128.116.119." in line:
         hosts = hosts[:index]
         break
 
