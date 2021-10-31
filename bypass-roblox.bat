@@ -1,7 +1,7 @@
 @echo off
 net session >nul 2>&1
 if %errorLevel% NEQ 0 (
-  echo **This file must be ran with administrator privileges**
+  echo This file must be ran with administrator privileges
   pause
   exit /b 1
 )
